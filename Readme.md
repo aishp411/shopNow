@@ -1,7 +1,7 @@
 
 # CI/CD-Driven Kubernetes Deployment with Helm for Frontend and Backend
 
-This project involves creating Kubernetes deployment files for both frontend and backend services to ensure scalable, reliable application delivery. A Helm chart is developed to simplify configuration and streamline deployments. Additionally, Jenkins Groovy scripts automate the build and deployment pipeline, enabling a consistent and efficient CI/CD workflow using the provided frontend and backend repositories.
+This project involves creating Kubernetes deployment files for both frontend, backend and admin services to ensure scalable, reliable application delivery. A Helm chart is developed to simplify configuration and streamline deployments. Additionally, Jenkins Groovy scripts automate the build and deployment pipeline, enabling a consistent and efficient CI/CD workflow using the provided repositories.
 
 ## Application:
 - **Customer App** (React frontend)  
