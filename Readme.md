@@ -42,8 +42,6 @@ kubectl cluster-info
 kubectl get nodes
 ```
 
-<img width="1224" height="1016" alt="Screenshot 2025-11-22 171917" src="https://github.com/user-attachments/assets/ac854a38-0c90-4932-b202-1613bb5e8fd4" />
-
 ---
 Pre-requisites in the Kubernetes Environment (Has to be done once per Kubernetes Cluster)
 ```bash
@@ -62,6 +60,8 @@ helm upgrade --install backend kubernetes/helm/charts/backend -n shopnow-demo
 helm upgrade --install frontend kubernetes/helm/charts/frontend -n shopnow-demo
 helm upgrade --install admin kubernetes/helm/charts/admin -n shopnow-demo
 ```
+
+<img width="1224" height="1016" alt="Screenshot 2025-11-22 171917" src="https://github.com/user-attachments/assets/ac854a38-0c90-4932-b202-1613bb5e8fd4" />
 
 ## 4) Check the application
 
